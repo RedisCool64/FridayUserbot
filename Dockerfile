@@ -6,7 +6,7 @@
 #
 # All rights reserved.
 
-FROM python:3.9
+FROM anasty17/mltb:latest
 WORKDIR /app
 ENV PYTHONUNBUFFERED=1
 COPY . .
